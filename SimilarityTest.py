@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.pipeline import make_pipeline
@@ -63,6 +63,12 @@ def store_in_mongodb(complaint, category):
     collection.insert_one(complaint_data)
 
 
+@app.route('/complaints', methods=['GET'])
+def get_complaints():
+    complaints_data = list(collection.find({}, {'_id': 0}))  # Retrieve all complaints data
+    return jsonify(complaints_data), 200
+
+
 # Process and store complaints only if this script is the main module
 if __name__ == "__main__":
     with open('test_complaints.txt', 'r') as file:
@@ -79,10 +85,5 @@ if __name__ == "__main__":
     # Start the Flask application
     app.run()
 
-@app.route('/complaints', methods=['GET'])
-def get_complaints():
-    complaints_data = list(collection.find({}, {'_id': 0}))  # Retrieve all complaints data
-    return jsonify(complaints_data), 200
-
-
 client.close()  # Close the MongoDB connection when finished
+
