@@ -6,9 +6,10 @@ import pymongo
 
 app = Flask(__name__)
 
-# Categories (facility-related and other)
+# Categories (facility-related, product_related and other)
 categories = [
     "facility_related",
+    "product_related",
     "other",
 ]
 
