@@ -24,7 +24,6 @@ training_complaints = [
     "The parking lot is always full.",
     "The chairs in the waiting area are uncomfortable.",
     "The lighting in the hallways is too dim.",
-    # Add more training complaints here...
     "Some other complaint not related to specific facilities.",
     "Another generic complaint.",
 ]
@@ -37,7 +36,6 @@ training_categories = [
     "facility_related",
     "facility_related",
     "facility_related",
-    # Add corresponding categories for the remaining complaints...
     "other",
     "other",
 ]
