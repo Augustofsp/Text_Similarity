@@ -79,6 +79,8 @@ if __name__ == "__main__":
     # Loop through test complaints and predict category
     for idx, complaint in enumerate(test_complaints, 1):
         category = predict_category(complaint)
+        
+        print(f"Complaint {idx}: {complaint}\nCategory: {category}\n")
 
         # Store complaint and category in MongoDB
         store_in_mongodb(complaint, category)
