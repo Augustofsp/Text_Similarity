@@ -1,0 +1,38 @@
+Facility Related
+
+The air conditioning in the waiting area is consistently too cold, making it uncomfortable for visitors.
+The restroom facilities are outdated and in need of modernization.
+The hand sanitizer dispensers are frequently empty, posing a hygiene concern in the facility.
+There is a persistent leak in the ceiling near the entrance, creating a safety hazard.
+The Wi-Fi connection in the facility is unreliable, causing inconvenience for those who rely on it.
+The signage in the building is unclear, leading to confusion for visitors trying to navigate the facility.
+The conference rooms lack proper audio-visual equipment, hindering effective presentations.
+The carpeting in the hallways is worn out and needs replacement to enhance the overall appearance.
+The vending machines in the break room frequently malfunction, causing frustration among employees.
+The windows in the facility are not soundproof, resulting in disturbances from outside noise.
+
+Product Related
+
+The new software update has caused frequent crashes and disruptions in our workflow.
+The latest product release has a significant decrease in quality compared to previous versions.
+The packaging of the product is flimsy, leading to damage during shipping.
+The user interface of the application is confusing, making it difficult for customers to navigate.
+The product warranty is not clearly explained, causing confusion among customers regarding coverage.
+The product manuals are poorly written, making it challenging for users to understand its features.
+The product assembly instructions are incomplete, causing frustration for customers attempting to set it up.
+The customer support for the product is unresponsive, leaving users without timely assistance.
+The product design does not consider ergonomic principles, leading to discomfort during use.
+The product's battery life is significantly shorter than advertised, affecting its overall usability.
+
+Other
+
+The website's customer service chatbot is not providing helpful responses.
+The company's promotional emails are too frequent and annoying.
+The website frequently experiences downtime, affecting online services.
+The company's billing system is confusing, leading to overcharges for some customers.
+The response time for resolving customer inquiries is excessively long.
+The company's social media presence lacks engagement and responsiveness.
+The company's return policy is unclear and needs better communication to customers.
+The product delivery times are inconsistent and often delayed.
+The company's mobile app has compatibility issues with certain devices.
+The website's search functionality is ineffective, making it hard to find specific information.

@@ -18,14 +18,21 @@ model = make_pipeline(CountVectorizer(), MultinomialNB())
 
 # Training complaints
 training_complaints = [
-    "The stairs are too steep and dangerous.",
-    "The restroom is not clean and needs maintenance.",
-    "The elevator is out of order.",
-    "The parking lot is always full.",
-    "The chairs in the waiting area are uncomfortable.",
-    "The lighting in the hallways is too dim.",
-    "Some other complaint not related to specific facilities.",
-    "Another generic complaint.",
+    "The air conditioning in the waiting area is consistently too cold, making it uncomfortable for visitors.",
+    "The conference rooms lack proper audio-visual equipment, hindering effective presentations.",
+    "The carpeting in the hallways is worn out and needs replacement to enhance the overall appearance.",
+    "The vending machines in the break room frequently malfunction, causing frustration among employees.",
+    "The windows in the facility are not soundproof, resulting in disturbances from outside noise.",
+    "The new software update has caused frequent crashes and disruptions in our workflow.",
+    "The product assembly instructions are incomplete, causing frustration for customers attempting to set it up.",
+    "The customer support for the product is unresponsive, leaving users without timely assistance.",
+    "The product design does not consider ergonomic principles, leading to discomfort during use.",
+    "The product's battery life is significantly shorter than advertised, affecting its overall usability.",
+    "The website's customer service chatbot is not providing helpful responses.",
+    "The company's return policy is unclear and needs better communication to customers.",
+    "The product delivery times are inconsistent and often delayed.",
+    "The company's mobile app has compatibility issues with certain devices.",
+    "The website's search functionality is ineffective, making it hard to find specific information.",
 ]
 
 # Corresponding categories for the training complaints
@@ -35,7 +42,14 @@ training_categories = [
     "facility_related",
     "facility_related",
     "facility_related",
-    "facility_related",
+    "product_related",
+    "product_related",
+    "product_related",
+    "product_related",
+    "product_related",
+    "other",
+    "other",
+    "other",
     "other",
     "other",
 ]
