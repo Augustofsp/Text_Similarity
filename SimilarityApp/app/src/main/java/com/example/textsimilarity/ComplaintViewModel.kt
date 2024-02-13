@@ -18,11 +18,11 @@ class ComplaintViewModel : ViewModel() {
     fun fetchDataFromApi() {
         GlobalScope.launch(Dispatchers.IO) {
             try {
-                val apiResponse = HttpUtils.fetchDataFromApi("YOUR_BASE_API_URL/complaints")
+                val apiResponse = HttpUtils.fetchDataFromApi("localhost:5000/complaints")
                 val complaintsList = parseJsonResponse(apiResponse)
                 _complaints.postValue(complaintsList)
             } catch (e: Exception) {
-                // Handle error
+
             }
         }
     }
